@@ -25,6 +25,7 @@ header {
     display: flex;
     padding: 10px 30px;
     font-weight: bold;
+    align-items: center;
 }
 
 .logo {
@@ -126,16 +127,49 @@ img:hover {
 }
 
 @media screen and (max-width: 924px) {
+    .logo {
+        height: 60px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+    header {
+        padding: 4px;
+    }
     .wrapper-top {
         display: flex;
         flex-direction: column;
     }
     .wrapper-top {
         padding: 20px;
-        margin-top: 140px;
+        margin-top: 170px;
         display: flex;
         padding-top: 100px;
         align-items: center;
         justify-content: center;
+    }
+
+    img {
+        height: 300px;
+    }
+
+    .bottom-img {
+        height: 100px;
+    }
+
+    #result {
+        font-size: 20px;
+        padding: 30px;
+    }
+
+    p {
+        font-size: 15px;  
+    }
+
+    section {
+        margin-top:200px;
+        display: flex;
+        flex-direction: column-reverse
     }
 }
