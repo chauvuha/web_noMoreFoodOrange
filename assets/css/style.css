@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.section {
+    position: relative;
+}
+
+body {
+    background-color: #ffacac;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.logo {
+    height: 100px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+header ul li a {
+    color: white !important;
+    font-size: 20px;
+}
+
+.wrapper-top {
+    margin-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(139, 43, 43);
+    font-size: 40px;
+}
+
+input {
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    padding: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.wrapper-left-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+button {
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(139, 43, 43);
+    height: 40px;
+    width: 170px;
+}
+
+img {
+    height: 560px;
+}
+
+.wrapper-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-img {
+    height: 170px;
+    cursor: pointer;
+}
+
+.bottom-img:hover,
+img:hover {
+    transform: translateY(-15px);
+    transition: 0.5s;
+    z-index: 2;
+}
+
+#result {
+    background-color: white;
+    padding: 70px;
+    margin-top: 40px;
+    font-size: 30px;
+    box-shadow: -8px 10px 0px -1px rgba(139,43,43,1);
+}
+
+.remember{
+    margin-top: 30px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(139,43,43,1)
+}
+
+@media screen and (max-width: 924px) {
+    .wrapper-top {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper-top {
+        padding: 20px;
+        margin-top: 140px;
+        display: flex;
+        padding-top: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+}

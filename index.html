@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body id="body">
+    <div class="circle"></div>
+    <section>
+        <header>
+            <a href="#"><img class="logo" src="./assets/images/whitepaw.png"></a>
+            <h1> Adult Pup Raw Food Calculator </h1>
+
+            <!-- <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul> -->
+        </header>
+        <div class="wrapper-top">
+            <div class="wrapper-left">
+                <p> Enter your adult puppy's weight: </p>
+
+                </p>
+                <div class="wrapper-left-form">
+                    <input id="input" type="number" min="0" name="weight" placeholder="Enter your pup's weight">
+                    <button id="button" onclick="calculateNow()"> <i class="fas fa-search"> </i> Calculate Now!</button>
+                </div>
+                <div id="result_now">
+                    <div id="result">
+                        You will see the result here!
+                    </div>
+                </div>
+                <p class="remember"> Remember, this calculator should be used as a guideline only. Every dog's metabolism is different, as are often their nutritional requirements, so feeding should be matched to their individual needs. Ultimately, feeding guides can be helpful but they are just guides!
+
+            </div>
+            <div class="wrapper-right" id="wrapper-right">
+                <img src="./assets/images/whitepaw.png">
+            </div>
+        </div>
+        <div class="wrapper-bottom">
+            <img class="bottom-img" id="white" onclick="changeBackgrToPink()" src="./assets/images/whitepaw.png">
+            <img class="bottom-img" id="orange" onclick="changeBackgrToOrange()" src="./assets/images/orangepaw.png">
+            <img class="bottom-img" id="brown" onclick="changeBackgrToBrown()"src="./assets/images/brownpaw.png">
+        </div>
+        <div class="copyright">
+            Copyright by @vhchauu
+        </div>
+    </section>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
