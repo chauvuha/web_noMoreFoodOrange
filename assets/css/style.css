@@ -86,6 +86,11 @@ button {
     width: 170px;
 }
 
+button:hover {
+    transform: scale(1.02);
+    background-color: rgb(167, 82, 82);
+}
+
 img {
     height: 560px;
 }
