@@ -37,5 +37,19 @@ function changeBackgrToOrange() {
 function changeBackgrToBrown() {
     body.style.backgroundColor="rgb(255, 229, 144)";
     wrapperRight.innerHTML=`<img src="./assets/images/brownpaw.png">`
+}
 
-    }
+function changeBackgrToPinkAbout() {
+    body.style.backgroundColor="#ffacac";
+    wrapperRight.innerHTML=`<img src="../images/whitepaw.png">`
+}
+
+function changeBackgrToOrangeAbout() {
+    body.style.backgroundColor="rgb(255, 151, 103)";
+    wrapperRight.innerHTML=`<img src="../images/orangepaw.png">`
+}
+
+function changeBackgrToBrownAbout() {
+    body.style.backgroundColor="rgb(255, 229, 144)";
+    wrapperRight.innerHTML=`<img src="../images/brownpaw.png">`
+}
